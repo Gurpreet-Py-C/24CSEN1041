@@ -1,0 +1,3 @@
+This repository is for the subject 24CSEN0141, in which I learn and practice python.
+The main Branch only consists of information about the doubts or topics which are in progress and will be deleted after completion.
+Other Branches have all the codes which I practice and learn everyday, visit them for more info...
