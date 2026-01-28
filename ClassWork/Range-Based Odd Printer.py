@@ -8,6 +8,8 @@ elif not (start <= stop_at < end):
 else:
     for i in range(start, end):
         if i == stop_at:
+            if i % 2 != 0:
+                print(i)
             break
         if i % 2 != 0:
             print(i)
