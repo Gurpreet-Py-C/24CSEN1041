@@ -7,9 +7,11 @@ elif not (start <= stop_at < end):
     print("Invalid stop value: must be within the range.")
 else:
     for i in range(start, end):
-        if i == stop_at:
-            if i % 2 != 0:
-                print(i)
-            break
-        if i % 2 != 0:
+        if i % 2 == 0:
+            continue
+        elif i == stop_at:
             print(i)
+            break
+        else:
+            pass 
+        print(i)
